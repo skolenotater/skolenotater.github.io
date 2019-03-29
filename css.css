@@ -1,0 +1,28 @@
+.meny{
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: left;
+  font-family: verdana;
+  border-bottom: solid 1px black;
+}
+
+.rad{
+  text-decoration: none;
+  flex-grow: 1;
+  background-color: #cd0000;
+  margin: 5px;
+}
+
+.rad:active{
+  transform: translate(1px, 1px);
+}
+
+.menyRad{
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  font-family: verdana;
+  margin-top: 10px;
+}
